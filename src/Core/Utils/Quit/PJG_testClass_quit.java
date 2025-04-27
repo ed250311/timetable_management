@@ -3,6 +3,11 @@ package Core.Utils.Quit;
 //to-do
 public class PJG_testClass_quit {
 
+    private Subject[] subjectBuffer;
+
+    public PJG_testClass_quit(Subject[] subjectBuffer){
+       this.subjectBuffer = subjectBuffer;
+    }
     public void quit(){
         uploadAllFileTodataBase();
     }
